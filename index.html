@@ -138,7 +138,7 @@ ul { list-style: none; }
   position: relative; min-height: 100vh;
   display: flex; align-items: center; justify-content: center;
   padding: 68px 24px 0; overflow: hidden;
-  background: linear-gradient(150deg, #ecf7f3 0%, #fdfcf9 55%, #f7f2ea 100%);
+  background: linear-gradient(150deg, rgba(232,245,241,0.88) 0%, rgba(253,252,249,0.82) 55%, rgba(247,242,234,0.88) 100%), url("images/img09.jpg") center/cover no-repeat;
 }
 .hero-bg { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
 .blob {
@@ -535,12 +535,7 @@ ul { list-style: none; }
     </div>
     <div class="about-g">
       <div class="about-img-w">
-        <div class="ph about-ph">
-          <div class="ph-in">
-            <span class="ph-ico">🏥</span>
-            <p>クリニック外観写真</p>
-          </div>
-        </div>
+        <img src="images/img09.jpg" alt="みらい歯科 診療室" class="about-ph" style="object-fit:cover;width:100%;border-radius:8px;">
         <div class="about-badge">
           <p class="badge-num">20<small>年</small></p>
           <p class="badge-tx">地域の歯科医院として</p>
@@ -565,63 +560,45 @@ ul { list-style: none; }
       <div class="sec-line"></div>
     </div>
     <div class="med-g">
-      <div class="med-card fade-in">
-        <div class="med-ico">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.4"/>
-            <path d="M24 11 C18 11 14 16 14 21 C14 29 20 36 24 38 C28 36 34 29 34 21 C34 16 30 11 24 11Z" stroke="currentColor" stroke-width="1.4" fill="none"/>
-          </svg>
-        </div>
+      <div class="med-card fade-in" style="padding:0;overflow:hidden;">
+        <img src="images/img06.jpg" alt="一般歯科" style="width:100%;height:160px;object-fit:cover;display:block;">
+        <div style="padding:22px;">
         <h3>一般歯科</h3>
         <p>虫歯・根管治療など、お口のトラブルに幅広く対応します。</p>
         <a href="#" class="c-link">詳しく見る</a>
-      </div>
-      <div class="med-card fade-in">
-        <div class="med-ico">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.4"/>
-            <path d="M15 25 L21 31 L33 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
         </div>
+      </div>
+      <div class="med-card fade-in" style="padding:0;overflow:hidden;">
+        <img src="images/img02.jpg" alt="予防歯科" style="width:100%;height:160px;object-fit:cover;object-position:top;display:block;">
+        <div style="padding:22px;">
         <h3>予防歯科</h3>
         <p>定期検診・クリーニングで、健康なお口を長く保ちます。</p>
         <a href="#" class="c-link">詳しく見る</a>
-      </div>
-      <div class="med-card fade-in">
-        <div class="med-ico">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.4"/>
-            <circle cx="24" cy="20" r="5.5" stroke="currentColor" stroke-width="1.4"/>
-            <path d="M13 37 C13 31 18 28 24 28 C30 28 35 31 35 37" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-          </svg>
         </div>
+      </div>
+      <div class="med-card fade-in" style="padding:0;overflow:hidden;">
+        <img src="images/img10.jpg" alt="小児歯科" style="width:100%;height:160px;object-fit:cover;object-position:top;display:block;">
+        <div style="padding:22px;">
         <h3>小児歯科</h3>
         <p>お子さまが歯医者を好きになれるよう、楽しい雰囲気で診療します。</p>
         <a href="#" class="c-link">詳しく見る</a>
-      </div>
-      <div class="med-card fade-in">
-        <div class="med-ico">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.4"/>
-            <path d="M17 32 C17 26 31 26 31 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-            <circle cx="20" cy="19" r="3" stroke="currentColor" stroke-width="1.4"/>
-            <circle cx="28" cy="19" r="3" stroke="currentColor" stroke-width="1.4"/>
-          </svg>
         </div>
+      </div>
+      <div class="med-card fade-in" style="padding:0;overflow:hidden;">
+        <img src="images/img11.jpg" alt="矯正歯科" style="width:100%;height:160px;object-fit:cover;object-position:top;display:block;">
+        <div style="padding:22px;">
         <h3>矯正歯科</h3>
         <p>マウスピース矯正・ワイヤー矯正で美しい歯並びをサポート。</p>
         <a href="#" class="c-link">詳しく見る</a>
-      </div>
-      <div class="med-card fade-in">
-        <div class="med-ico">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.4"/>
-            <path d="M16 22 C18 16 30 16 32 22 C34 28 28 36 24 36 C20 36 14 28 16 22Z" stroke="currentColor" stroke-width="1.4" fill="none"/>
-          </svg>
         </div>
+      </div>
+      <div class="med-card fade-in" style="padding:0;overflow:hidden;">
+        <img src="images/img01.jpg" alt="審美・ホワイトニング" style="width:100%;height:160px;object-fit:cover;object-position:top;display:block;">
+        <div style="padding:22px;">
         <h3>審美・ホワイトニング</h3>
         <p>セラミック治療やホワイトニングで、自信あふれる笑顔に。</p>
         <a href="#" class="c-link">詳しく見る</a>
+        </div>
       </div>
       <div class="med-card fade-in">
         <div class="med-ico">
@@ -683,12 +660,7 @@ ul { list-style: none; }
     <div class="staff-w">
       <div class="staff-card">
         <div class="s-photo">
-          <div class="ph s-ph">
-            <div class="ph-in">
-              <span class="ph-ico">👨‍⚕️</span>
-              <p>院長写真</p>
-            </div>
-          </div>
+          <img src="images/img04.jpg" alt="みらい歯科 スタッフ" style="width:100%;height:100%;object-fit:cover;object-position:top;display:block;">
         </div>
         <div class="s-info">
           <span class="s-role">院長</span>
@@ -703,6 +675,9 @@ ul { list-style: none; }
         </div>
       </div>
     </div>
+    <div style="margin-top:32px;border-radius:12px;overflow:hidden;border:1px solid var(--c-border);">
+      <img src="images/img03.jpg" alt="みらい歯科 スタッフ全員" style="width:100%;height:auto;display:block;max-height:360px;object-fit:cover;object-position:top;">
+    </div>
   </div>
 </section>
 
@@ -716,25 +691,19 @@ ul { list-style: none; }
     </div>
     <div class="eq-g">
       <div class="eq-item fade-in">
-        <div class="ph eq-ph">
-          <div class="ph-in"><span class="ph-ico">🦷</span><p>デジタルレントゲン</p></div>
-        </div>
-        <h3>デジタルレントゲン</h3>
-        <p>従来比で放射線量を大幅に低減。高精細な画像で精密診断を行います。</p>
+        <img src="images/img08.jpg" alt="歯科治療ライト" class="eq-ph" style="object-fit:cover;width:100%;border-radius:8px;">
+        <h3>最新診療ユニット</h3>
+        <p>TAKARA BELMONT製の高性能LEDライトを導入。明るく精密な診療環境を整えています。</p>
       </div>
       <div class="eq-item fade-in">
-        <div class="ph eq-ph">
-          <div class="ph-in"><span class="ph-ico">🔬</span><p>口腔内カメラ</p></div>
-        </div>
-        <h3>口腔内カメラ</h3>
-        <p>お口の中の状態をリアルタイムで確認。患者さまと一緒にご確認いただけます。</p>
+        <img src="images/img07.jpg" alt="歯科材料・薬液" class="eq-ph" style="object-fit:cover;width:100%;border-radius:8px;">
+        <h3>厳選された薬剤・材料</h3>
+        <p>安全性の高い薬剤・材料を使用。患者さまの体への負担を最小限に抑えた治療を行います。</p>
       </div>
       <div class="eq-item fade-in">
-        <div class="ph eq-ph">
-          <div class="ph-in"><span class="ph-ico">🛋️</span><p>キッズスペース</p></div>
-        </div>
-        <h3>キッズスペース</h3>
-        <p>お子さまが楽しく待ち時間を過ごせるスペースをご用意しています。</p>
+        <img src="images/img05.jpg" alt="歯科治療機器" class="eq-ph" style="object-fit:cover;width:100%;border-radius:8px;">
+        <h3>精密治療機器</h3>
+        <p>精度の高い治療器具を使用し、確実で丁寧な診療をご提供します。</p>
       </div>
     </div>
   </div>
